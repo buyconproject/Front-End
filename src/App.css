@@ -1,0 +1,195 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h4 {
+  font-family: "yj";
+}
+.main_slidebox {
+  position : absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  z-index: 5;
+  background-color: rgb(255, 255, 255);
+  top : 69px; 
+}
+
+
+.contant {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 10px;
+  grid-template-areas:
+  "contant_category contant_goods" ;
+  position:absolute;
+  width: 90%;
+  min-width:1080px;
+  height: 1850px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  top:820px;
+}
+a {
+  font-size : 13px;
+}
+.contant_category {
+  background-color: #F0EDCC;
+  margin:10px 10px 10px 10px;
+  padding : 10px;
+  font-size: 14px;
+  font-family: "yj";
+  box-shadow: 0 5px 18px -7px rgba(0,0,0,1);
+}
+
+.contant_category a {
+  color :#02343F
+}
+
+
+
+.ctg_Cafe {
+  display:grid;
+  grid-template : 1fr 1fr / 1fr 1fr;
+  gap : 10px;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 35px;
+}
+
+.ctg_IceCream {
+  display:grid;
+  grid-template : 1fr 1fr / 1fr 1fr;
+  gap : 10px;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 35px;
+}
+
+.ctg_FastFood {
+  display:grid;
+  grid-template : 1fr 1fr / 1fr 1fr;
+  gap : 10px;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 35px;
+}
+
+.ctg_res {
+  display:grid;
+  grid-template : 1fr 1fr / 1fr 1fr;
+  gap : 10px;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 35px;
+}
+
+.ctg_GiftCard {
+  display:grid;
+  grid-template : 1fr 1fr / 1fr 1fr;
+  gap : 10px;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 35px;
+}
+
+.ctg_MoneyCard {
+  display:grid;
+  grid-template : 1fr 1fr / 1fr 1fr;
+  gap : 10px;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 35px;
+}
+
+.ctg_Mart {
+  display:grid;
+  grid-template : 1fr 1fr / 1fr 1fr;
+  gap : 10px;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 35px;
+}
+
+.ctg_Baker {
+  display:grid;
+  grid-template : 1fr 1fr / 1fr 1fr;
+  gap : 10px;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 35px;
+}
+
+.ctg_Movie {
+  display:grid;
+  grid-template-columns: 1fr/1fr;
+  gap : 10px;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 35px;
+}
+
+.ctg_Beautie {
+  display:grid;
+  grid-template : 1fr 1fr / 1fr 1fr;
+  gap : 10px;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 35px;
+}
+
+.contant_goods {
+  background-color: #F0EDCC;
+  margin:10px 10px 10px 0;
+  padding : 10px;
+  box-shadow: 0 5px 18px -7px rgba(0,0,0,1);
+}
+
+.goods {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: #F0EDCC;
+  z-index: 10;
+  display: grid;
+  grid-template : 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+  gap : 30px;
+  padding : 0;
+}
+
+.goods div {
+  
+  z-index: 20;
+  background-color: white;
+  padding :10px;
+  border-radius: 5px;
+  box-shadow: 0 5px 18px -7px rgba(0,0,0,1);
+}
+
+img {
+  width: 100%;
+  height: 50%;
+  
+}
+
+p {
+  font-family: "yj";
+  font-size:13px;
+}
+
+
+
+@font-face {
+    font-family: "yj";
+    src: url("./font/yj.ttf");
+}

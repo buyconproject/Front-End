@@ -1,0 +1,26 @@
+.contant {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+    grid-template-areas:
+    "contant_category contant_goods" ;
+    position:absolute;
+    width: 1830px;
+    height: 1300px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top:820px;
+  }
+  
+  .contant_category {
+    background-color: #F0EDCC;
+    margin:10px 10px 10px 10px;
+  }
+
+
+  
+  .contant_goods {
+    background-color: #F0EDCC;
+    margin:10px 10px 10px 0;
+  }
